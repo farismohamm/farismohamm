@@ -313,12 +313,12 @@ color: rgb(0, 0, 0);
  }   
  /* 3.2 ABOUT SECTION......................................................................................... */
  .should{
-    position:relative;
+
  }       
 .should-wwe{
  width: 100%;
  height: 100vh;
-position: absolute;
+
 margin-top: 129%;
 background-color: #ff00A6;
 }
