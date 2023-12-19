@@ -377,7 +377,8 @@ background-color:  #7ba7ff;
 .donate{
     position: absolute;
     margin-top: 18%;
-    font-size: 16px;
+    font-size: 13px;
+    margin-tob:15px;
 
 }
 .service li  i{
