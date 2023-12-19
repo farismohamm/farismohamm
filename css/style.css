@@ -1,0 +1,888 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: 0;
+}
+
+body{
+height: 6500px;
+background-color: #FF0071;
+}
+.basic{
+position: relative;
+}
+.headr1{
+width: 100%;
+height: 50px;
+border-radius: 50px;
+background-color:#FFAAF4;
+z-index: 1000;
+position: fixed;
+margin-top: 3px;
+opacity: 0.8;
+}
+.img1{
+width: 100px;
+height: 50px;
+border-radius: 50%;
+margin-left: 40px;
+opacity: 1;
+}
+.listy1{
+list-style-type: none; 
+float: right;   
+}
+.listy1  li{
+    display:inline-block;
+    font-size: 25px;
+    color: rgb(7, 252, 68);
+    margin-right: 40px;
+    margin-top: 14px;
+
+
+}
+.listy1 li  a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+}
+/* 2- GENERAL STYLES........................................................................................ */
+.WEARE1{
+    width: 100%;
+    height: 120vh;
+    background-image: url(../images/Accelerating-Next-Generation-Philanthropy-Arabic.jpg);
+    background-size: cover;
+    position: relative;
+}
+.WEARE2{
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: rgba(160, 55, 134, 0.3)
+}
+.WEARE3{
+width: 50%;
+height: 260px;
+text-align: center;
+position:absolute ;
+top: 50%;
+left:50%;
+transform: translate( -50% , -50%);
+
+}
+.btn{ 
+width:220px;
+height: 50px;
+border: 0; 
+font-size: 19px;
+text-transform: capitalize;
+
+text-align: center;
+border-radius: 10px;
+
+}
+.butto1{
+    background-color: #71a0ff;
+
+
+}
+.butto2{
+background-color: #00ffe1;
+
+
+}
+.WEAREh1{
+    font-size:  35px;
+    margin-top: 90px;
+    color: #dd00ff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.WEAREp2{
+    font-size: 23px;
+    color: #ff64ef;
+    text-align: center;
+    margin: 20PX 0PX;
+}
+
+/* 3.0 HEADER................................................................................................ */
+.Imagine{
+width: 100%;
+}
+.magine-content1I{
+width: 40%;
+height: 30px;
+margin: auto;
+margin: 5% 30%;
+font-size: 30px;
+text-align: center;
+color: rgb(255, 255, 255);
+}
+.in{
+    width: 200px;
+    height: 10px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10px;
+    border: 0;
+    background-color: #7ba7ff;
+}
+.Imagine3{ 
+    font-size: 20px;
+    width: 100%;
+    height: 150vh;
+    position: absolute;
+    padding-left: 70px;
+    background-color: #ff00A6;
+    
+}
+.Imagine-img10{
+    display: block;
+    float: left;
+    width: 23%;
+    background-color: #dd00ff;
+    padding: 17px 13px;
+    text-align: center;
+    position: relative;
+    padding: 17px   13px;
+    margin: 5% 5%;
+    border-radius: 30px;
+}
+.Imagine-img11{
+    display: block;
+    float: left;
+    width: 23%;
+    background-color: #dd00ff;
+    padding: 17px 13px;
+    text-align: center;
+    position: relative;
+    border-radius: 30px;
+    margin: 5%  5%;
+}
+
+.Imagine-content2{
+    position: absolute;
+    top:0;
+    right:0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+    visibility: hidden;
+    border-radius: 30px;
+   
+}
+.Imagine-content1{
+    position: absolute;
+    top:0;
+    right:0;
+    bottom: 0;
+    left: 0;
+    background-color:rgba(106, 0, 255, 0.3);
+    visibility: hidden;
+    border-radius: 30px;
+}
+.Imagine-img11:hover .Imagine-content1{
+    visibility: visible;
+    color:#fff;
+    transition: 2s;
+    
+}
+.Imagine-img10:hover .Imagine-content1{
+    visibility: visible;
+    color:#fff;
+    transition: 2s;
+}
+
+.Imagine-content1 a {
+    display: block;
+    font-size: 33px;
+    width: 50px;
+    height:40px;
+    background-color: #7ba7ff;
+    color:#fff;
+    margin-left: auto;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+.Imagine-content1 a i{
+    line-height: 40px;
+     
+}
+
+/* 3.1 HOME SECTION......................................................................................... */
+.special1{
+    width: 100%;
+    position: relative;
+}
+.special1-content6{
+    width: 100%;
+    margin-top: 71.10%;
+    background-color: #ff00A6;
+    text-align: center;
+    position: absolute;
+}
+.special1-content-title{ 
+width: 40%;
+height: 30px;
+margin: auto;
+margin: 5% 30%;
+font-size: 30px;
+text-align: center;
+color: rgb(255, 255, 255);
+}
+.sp{
+    width: 200px;
+    height: 10px;
+    border-radius: 20px;
+    margin: auto;
+    border: 0;
+    background-color: #7ba7ff;
+}
+.speci1{
+    float: left;
+    width: 20%;
+    height: 200px;
+    background-color: #dd00ff;
+    text-align: center;
+    padding: 14px 17px;
+    margin: 5% 6%;
+border-radius: 30px;
+position: relative;
+}
+.special-item-ww{
+color: #ffffff;
+font-size: 28px;
+
+}
+.special-item-ff{
+    text-align: center;
+font-size: 20px;
+
+}
+.special-item-ww-g{
+    text-align: center;
+color: #ffffff;
+    font-size: 22px;
+}
+.special-item-ff{
+    margin-top: 18px;
+text-align: center;
+    font-size: 21px;
+}
+.speci1  i{
+    font-size: 33px;
+    float: left;
+    color: #7ba7ff;
+}
+.special-item-w{
+    font-size: 25px;
+color: #fff;
+
+}
+.speci1::after{
+position: absolute;
+content: "";
+width:100% ;
+height:0 ;
+top: 0;
+left:0 ;
+opacity: 0;
+background-color: #004eea;
+transition: 2s;
+border-radius: 30px;
+}
+.speci1:hover:after{
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
+.speci1:hover   .special-item-ff{
+color: rgb(255, 255, 255);
+
+}
+.speci1:hover   .special-item-ww{
+    color: rgb(0, 0, 0);
+ }
+.speci1:hover   .special-item-ww-g{
+color: rgb(0, 0, 0);
+        
+ }
+ .speci1:hover    .special-item-w{
+ color: #222
+ }   
+ /* 3.2 ABOUT SECTION......................................................................................... */
+ .should{
+    position:relative;
+ }       
+.should-wwe{
+ width: 100%;
+ height: 100vh;
+position: absolute;
+margin-top: 129%;
+background-color: #ff00A6;
+}
+.Human-image{
+float: right;
+margin-top: 130px;
+
+}
+.should-h2{
+ color: #ffffff;
+position: absolute;
+ margin-top: 120px;
+font-size: 45px;
+}
+.us{
+ position: absolute;
+border: 0;
+background-color: #7ba7ff;
+border-radius: 30px;
+ width: 100px;
+ height: 10px;
+ margin-top: 170px;
+}
+.also{
+ color: rgb(210, 162, 255);
+width: 500px;
+position: absolute;
+margin-top: 190px;
+}
+.list{
+text-align: center;
+}
+.list-wer  li{
+ width: 10px;
+height: 10px;
+ margin-left: 10px;
+ background-color: #fff;
+ border-radius: 50px;
+display: inline-block;
+}
+.list-wer .ll{
+ background-color: #7ba7ff;
+}
+.ll:hover{
+     background-color: #f7f9ff;
+}
+.sl:hover{
+background-color:  #7ba7ff;
+}
+.ts:hover{
+    background-color: #7ba7ff;
+}
+.st:hover{
+    background-color:  #7ba7ff;
+}
+.donate{
+    position: absolute;
+    margin-top: 18%;
+    font-size: 16px;
+
+}
+.service li  i{
+    border: 1px   solid  rgb(145, 145, 219);
+    font-size: 23px;
+    text-transform: capitalize;
+    color: #0055ff;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+}
+/* 3.3 PORTFOLIO SECTION....................................................................................... */
+.available-contnt{
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    position: relative;
+background-color: #ff00A6;
+    margin-top: 176%;
+}
+.availabl{
+color: #f7f9ff;
+font-size: 30px;
+
+}
+.with{
+    width: 120px;
+    height: 10px;
+    background-color: #7ba7ff;
+    border: 0;
+    margin: auto;
+    border-radius:30px ;
+}
+.Payment{
+    position: absolute;
+    margin: auto;
+}
+.Payment1{
+    position: relative;
+    display: inline-block;
+    margin: 9% 0%;
+    border-radius: 50px;
+    width: 250px;
+    height: 250px;
+  margin-left: 150px;
+    background-color: #dd00ff;
+}
+.Electronic{
+font-size: 28px;
+color: #f7f9ff;
+}
+.Payment1:hover  .Electronic{
+color: #222;
+}
+.communicate{
+    margin: auto;
+    font-size: 25px;
+    width: 190px;
+    color: #222;
+}
+.Payment1:hover  .communicate{
+    color: #ffffff;
+}
+
+
+.Payment1  i{
+    margin-top: 15px;
+    font-size: 40px;
+    color: #7ba7ff;
+}
+.Payment1::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height:0 ;
+    top: 0;
+    left:0 ;
+    opacity: 0;
+    background-color: #2469ff;
+    transition: 2s;
+    border-radius: 50px;
+    }
+.Payment1:hover:after{
+opacity: 0.5;
+ width: 100%;
+ height: 100%;      
+ }
+.read{
+  text-decoration: none;
+  font-size: 20px;
+  color: #001aff;
+ }
+ /* 3.5 SERVICE SECTION........................................................................................ */
+ .happy1{
+ position: relative;
+  background-image: url(../images/images1.jfif);
+  height:350px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+ .awards-item{
+ width: 25%;
+text-align: center;
+float:left;
+ padding: 150px;
+}
+ .awards-item  i{
+ font-size: 40px;
+ color: #2e7cc4;
+ }
+.number-item-title{
+font-size: 29px;
+ color: #f7f9ff;
+ }
+.awards-item-text{
+color: #ffffff;
+font-size: 24px;
+    
+ }
+.Hospital{
+width: 100%;
+height: 90vh;
+position: relative;
+background-color: #FF0071;
+    }
+.subscription{
+ position: relative;
+ }
+.Hospita2{
+ position:absolute ;
+width: 250px;
+height: 250px;
+ top: 0;
+ margin-top: 10%;
+ background-color: #0e1419;
+ margin-left: 150px;
+ float: left;  
+}
+/* 3.6 NUMBERS SECTION......................................................................................... */
+ .help{
+ position: relative;
+ text-align: center;   
+}
+.around-title{
+font-size: 30px;
+margin-top: 30px;
+ color: #fcfcfc;  
+}
+.to{
+ width: 180px;
+ height: 10px;
+ margin-top: 0;
+ margin: auto;
+ border: 0;
+ border-radius: 30px;
+ background-color: #7ba7ff;
+ }
+.around{ 
+ width: 100%;
+ height: 90vh;
+background-color: #ff00A6;
+ position: absolute;
+ }
+.subscription-item{
+width: 290px;
+height: 290px;
+position: relative;
+background-color: #dd00ff;
+float: left;
+margin: 5% 5%;
+text-align: center;
+border-radius: 50px;
+padding: 30px 0;
+}
+.pricing-item-permonth{
+ width: 110px;
+ height: 110px;
+ margin-top: 20px;
+ margin-left: 90px;
+ border-radius: 50%;
+ background-color: #8724ff;
+padding: 20px 0;
+ }
+.know-item-purchase{
+width: 170px;
+height: 40px; 
+margin-top: 70px;
+border: 0;
+background-color: #004eea;
+border-radius: 30px;
+border: 3px solid rgb(255, 10, 255);
+ }
+    
+.subscription-item-text{
+ color: #f7f9ff;
+font-size: 28px; 
+text-align:center;
+text-transform: uppercase;
+ }
+.subscription-item::after{
+position: absolute;
+content: "";
+width: 100%;
+height:0 ;
+ top: 0;
+ left:0 ;
+ opacity: 0;
+ background-color: #2469ff;
+transition: 2s;
+border-radius: 50px;
+ }
+.subscription-item:hover:after{
+ opacity: 0.5;
+width: 100%;
+height: 100%;        
+ }
+ /* 3.7 PRICING SECTION....................................................................................... */
+.faris {  
+ position: relative;
+ background-image: url(../images/b1cc6b97c1081f7cb9a932fc71109d6c.jpg);
+margin-top: 42%;
+background-attachment: fixed;
+background-size: cover; 
+height: 350px; 
+ background-color:rgba(0, 68, 255, 0.5);
+ }   
+.islam-content{
+ overflow: hidden;
+ width: 90%;
+ margin: auto;
+ }
+.islam-item{
+ float: left;
+ width: 50%;
+ color: #fff;
+ padding-right: 20px;
+ padding-top: 55px;
+ margin-bottom: 110px;
+ }
+ .islam-toplayer{
+ padding:90px 20px 10px 150px;
+position:relative;
+ line-height: 1.4;
+ margin-bottom: 20px;
+ }
+.islam-toplayer img{
+ position: absolute;
+ top: 82px;
+ left: 65px;
+ border-radius: 50%;
+ }
+.testimonial-islam{
+text-transform: capitalize;
+line-height: 1.5;
+ margin-left: 76px;
+font-size: 14px;
+ }
+.islam-toplayer span{
+ color: #6195ff;
+}
+/* 3.8 TESTIMONIAL SECTION.....................................................................................*/
+.contents{
+ width: 80%;
+ margin: auto;
+}    
+.team-item{
+float: left; 
+ position: relative;
+background-color: #dd00ff;
+ width: 30%;
+ padding: 14px 20px;
+ text-align: center;
+border-radius: 30px;
+margin-top: 200px;
+} 
+.op{
+margin: 0px 5%;
+ margin-top: 200px;
+}
+.team-imax{
+ width: 90%;
+ margin: auto;
+ position: relative;
+}
+.team-imax  img{
+width: 100%;
+border-radius: 30px;
+}
+.overley-team{
+ position: absolute;
+ top:0;
+ width: 100%;
+height: 100%;
+}
+.overley-team a{
+display: block;
+width: 10%;
+height: 20%; 
+background-color: #0703ff;
+font-size: 25px;
+color: #ffffff;
+margin-left:auto ;
+visibility: hidden;
+    
+}
+.overley-team a i{
+line-height: 40px;
+}
+.team-item:hover  .overley-team a{
+visibility: visible;
+background-color: #fffefe;
+color: #2d5cf6;
+}
+.team-info-h2{
+color: #ffffff;
+font-size: 30px;
+
+}
+.team-item:hover  .team-info-h2{
+ color: #0e1419;
+}
+.team-info-span{
+font-size: 20px;
+}
+.team-item:hover .team-info-span{
+color: #ffffff;
+}
+.team-item::after{
+ position: absolute;
+ content: "";
+ width: 100%;  height:0 ;
+ top: 0;
+left:0 ;
+opacity: 0;
+ background-color: #4d5fff;
+transition: 2s;
+border-radius: 30px;
+}
+.team-item:hover:after{
+opacity: 0.5; 
+width: 100%;
+height: 100%;
+ }
+.con{
+
+    margin-top: 150px;
+text-align: center;
+font-size: 30px;
+color: #effffd;
+}
+.con hr{
+  width: 150px;  
+  height: 10px;
+  margin: auto;
+  background-color: #6195ff;
+  border: 0;
+  border-radius: 30px;
+}
+/* 3.9 TEAM SECTION......................................................................................... */
+.contai{
+    width: 90%;
+    margin: auto;}
+.blog-item{
+    display: inline-block;
+    width: 25%;
+     visibility: hidden;
+    background-color: #fff;
+    margin: 9% 3%;
+    background-color: #ffffff;
+    position: relative;
+
+}
+.blog-item-img{
+    width: 100%;
+    margin-left: 23px;
+    margin-top: 30px;
+    visibility: visible;
+}
+.blog-list{
+    list-style: none;
+    margin: 10px 0;
+    visibility: visible;
+}
+.blog-list li{
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 5px;
+    visibility: visible;
+}
+.blog-list li  i{
+    color: #6195ff;
+    visibility: visible;
+}
+.blog-info{
+    padding: 20px;
+     visibility: visible;
+}
+.blog-title{
+    font-weight: bold;
+    margin: 20px 0;
+    margin-bottom: 25px;
+    color: #d4d4d4;
+}
+.blog-desc{
+    color: #000000;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.blog-link{
+    color: #6195ff;
+}
+.blog-item.mg{
+    margin: 0 5%;
+}
+.blog-item::after{
+    position: absolute;
+    content: "";
+    width: 100%;  height:0 ;
+    top: 0;
+   left:0 ;
+   opacity: 0;
+    background-color: #4d5fff;
+   transition: 2s;
+   border-radius: 30px;
+   }
+   .blog-item:hover:after{
+    visibility: visible;
+   opacity: 0.5; 
+   width: 100%;
+   height: 100%;
+}
+.section-header{
+margin-top: 50%;
+text-align: center;
+font-size: 30px;
+color: #ffffff;
+}
+.section-header hr{
+    width: 100px;
+    height: 10px;
+    margin: auto;
+    background-color: #6195ff;
+    border: 0;
+    border-radius: 30px;
+}
+.mmg{
+    width: 160px;
+    height: 70px;
+}
+
+/* 3.10 BLOG SECTION........................................................................................ */
+.footer{
+    background-color: #8c059e;
+    text-align: center;
+    height: 300px;
+    padding: 60px 0;
+}
+.footer-links{
+    list-style: none;
+    margin: 20px 0;
+}
+.footer-links li{
+    display: inline-block;
+    background-color: #6195ff;
+    width:50px;
+    height: 50px;
+    position: relative;
+    z-index: 1;
+    border-radius: 50%;
+}
+.footer-links li a{
+    display: block;
+    width:100%;
+    height: 100%;
+    color:#6195ff;
+    color: #fff;
+    line-height: 50px;
+    padding-top: 15px;
+    padding-right: 15px;
+    font-size: 23px;
+    margin: 0 8px;
+}
+.footer-links li:after{
+    position: absolute;
+    content: "";
+    opacity: 0;
+    transition: .3s;
+    background-color: #0954ec;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0%;
+    bottom: 0;
+}
+.footer-links li:hover:after{
+    opacity: .7;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 50%;
+}
+.footer p{
+    color:#999;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+/* 3.11 FOOTER SECTION....................................................................................... */
